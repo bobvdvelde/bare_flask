@@ -1,0 +1,9 @@
+import os
+
+class Config(object):
+    DEBUG   = False
+    TESTING = True
+    DATABASE_URI = os.environ['DATABASE_URI']
+    HOST = '0.0.0.0'
+    PORT = '80'
+    
