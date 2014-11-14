@@ -15,3 +15,5 @@ class ProdConfig(Config):
 class DevConfig(Config):
     DEBUG = True
     TESTING = True
+    DEVELOPMENT = True
+    SECRET_KEY = 'absolutely-not-safe-for-the-big-bad-outside-world'
